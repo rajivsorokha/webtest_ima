@@ -1,0 +1,314 @@
+
+.homeBg {
+    background-image: url(../images/slider/bg1.png);
+    background-repeat: no-repeat;
+}
+.aboutBg {
+    background-image: url(../images/cover/about/about_bg.png);
+    background-size: cover;
+}
+.contactUsBg {
+    background-image: url(../images/cover/contactUs/contactUs_bg.png);
+    background-size: cover;
+}
+a.aboutLink:after {
+    border-bottom:2px solid green!important;
+}
+.cover-head {
+    margin-top: 8%;
+    margin-bottom: 3%;
+    text-align: center;
+}
+.cover-head h2 {
+    font-size: 36px;
+}
+.cover-head h2.white, .cover-head h3.white {
+    color: #fff;
+}
+.cover-head h3 {
+    font-size: 20px;
+}
+@media(min-width:768px) {
+    .homeBg {
+        background-size: 100% 100%;
+    }
+}
+#main-slider .next, #main-slider .prev, .carousel-indicators {
+    display: none !important;
+}
+.navbar-inverse .navbar-nav > li > a{
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+    .navbar-inverse .navbar-nav > li > a:hover {
+        background-color: #112432;
+    }
+
+.navbar-nav {
+    margin-top: 20px;
+}
+.navbar-nav > li {
+    padding-bottom: 17px!important;
+}
+.home {
+    margin-top: 11%;
+}
+.home .home_img{
+    margin: 6% auto;
+}
+.home .home_img img{
+    margin: 0 auto;
+}
+.home h1, .home h2, .home h3 {
+    text-align: center;
+}
+.home h1 {
+    font-size: 68px;
+    font-weight: 700;
+}
+    .home h2, .home h3 {
+        color: #a7a7a7 !important;
+    }
+    .home h2 {
+        font-size: 22px;
+    }
+    .home h3 {
+        font-size: 14px;
+    }
+    .home h2.fs26 {
+        font-size: 26px;
+    }
+.brdCertificate {
+    border-bottom: 1px solid #00F6FF;
+}
+body > section.brdCertificate {
+    padding: 13px 0 10px 0;
+}
+.certificate .ISO-Certified, .certificate .IAF-MLA-Mark, .certificate .jas_anz, .certificate .DRS {
+    display: inline-block;
+    height: 68px;
+    margin: 0 6%;
+}
+.certificate .ISO-Certified {
+    width: 69px;
+    background: url(../images/certificate/ISO-Certified.png)
+}
+.certificate .IAF-MLA-Mark {
+    width: 109px;
+    background: url(../images/certificate/IAF-MLA-Mark.png)
+}
+.certificate .jas_anz {
+    width: 62px;
+    background: url(../images/certificate/jas_anz.png)
+}
+.certificate .DRS {
+    width: 80px;
+    background: url(../images/certificate/DRS.png)
+}
+.lead {
+    font-size: 20px;
+    line-height: 30px;
+}
+.products-sectors .col-sm-3 {
+    padding: 70px 30px;
+    color: #fff;
+    border: 1px solid #eee;
+}
+.products-sectors h3 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.products-sectors p {
+    font-size: 16px;
+}
+.products-sectors .col-sm-3.manufacture{
+    background: url(../images/products/sectors/manufature.png)
+}
+.products-sectors .col-sm-3.logistics {
+    background: url(../images/products/sectors/logistics.png)
+}
+.products-sectors .col-sm-3.warehouse {
+    background: url(../images/products/sectors/warehouse.png)
+}
+.products-sectors .col-sm-3.retails {
+    background: url(../images/products/sectors/retails.png)
+}
+.dropdown-menu > li > a:hover {
+    background-color: #283A46!important;
+}
+
+.fa-bullhorn.scanner:before, .fa-comments.printer:before, .fa-cloud-download.idCardPrinter:before, .fa-leaf.mobileTerminal:before, .fa-cogs.mobilePrinter:before, .fa-heart.RFID-Reader:before, .fa-heart.RFID-Tag:before, .fa-cogs.labelBarcode:before, .fa-heart.thermalTransferRibbon:before {
+    content: "";
+}
+.fa-bullhorn.scanner {
+    background: url(../images/products/productIcon/scanner.png) 36px 16px;
+    background-repeat: no-repeat;
+}
+.fa-comments.printer {
+    background: url(../images/products/productIcon/printer.png) 20px 15px;
+    background-repeat: no-repeat;
+}
+.fa-cloud-download.idCardPrinter {
+    background: url(../images/products/productIcon/idCardPrinter.png) 19px 11px;
+    background-repeat: no-repeat;
+}
+.fa-leaf.mobileTerminal {
+    background: url(../images/products/productIcon/mobileTerminal.png) 18px 13px;
+    background-repeat: no-repeat;
+}
+.fa-cogs.mobilePrinter {
+    background: url(../images/products/productIcon/mobilePrinter.png) 17px 12px;
+    background-repeat: no-repeat;
+}
+.fa-heart.RFID-Reader {
+    background: url(../images/products/productIcon/RFID-Reader.png) 17px 12px;
+    background-repeat: no-repeat;
+}
+.fa-heart.RFID-Tag {
+    background: url(../images/products/productIcon/RFID-Tag.png) 19px 12px;
+    background-repeat: no-repeat;
+}
+.fa-cogs.labelBarcode {
+    background: url(../images/products/productIcon/labelBarcode.png) 18px 12px;
+    background-repeat: no-repeat;
+}
+.fa-heart.thermalTransferRibbon {
+    background: url(../images/products/productIcon/thermalTransferRibbon.png) 18px 12px;
+    background-repeat: no-repeat;
+}
+.bestSelling h2 {
+    margin-bottom: 40px;
+}
+.bestSelling h3 {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+    .bestSelling h3 span {
+        background: yellow;
+        padding: 0 3px;
+        color: #4e4e4e;
+        font-weight: 600;
+        line-height: 44px;
+    }
+.mT50 {
+    margin-top: 50px;
+}
+.fs12 {
+    font-size: 12px;
+}
+#services.event {
+    background: #1a3041!important;
+}
+#services.event h2 {
+    font-size: 28px;
+    text-align: left;
+}
+#services.event h3 {
+    color: #fff;
+}
+#services.event p{
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+}
+#services.event .event-item {
+    height: 260px;
+    margin: 0 0 15px 0;
+    background: #fff url(../images/event/event.png) center 0;
+    background-repeat: no-repeat;
+}
+#services.event .description {
+    color: #bbb;
+}
+#services.event .machine-item {
+    height: 260px;
+    margin: 0 0 15px 0;
+    background: #fff url(../images/machine/machine.png) center 0;
+    background-repeat: no-repeat;
+}
+#oneMission {
+    background: #000 url(../images/oneMission/oneMission_bg.png) center 0;
+    background-size: cover;
+}
+#oneMission h2, #oneMission p {
+    color: #fff;
+}
+#oneMission p {
+    font-size: 30px;
+}
+#oneMission p.lead {
+    line-height: 42px;
+}
+.partners .img-responsive {
+    margin: 0 auto;
+}
+.brd {
+    border: 2px solid #eee;
+}
+.topPhone {
+    /*font-size: 18px;*/
+    padding: 8px 15px;
+    line-height: 26px;
+    color: #fff;
+    background: green;
+    float: right;
+}
+.topPhone .fa-phone{
+    font-size: 16px;
+    position: relative;
+    top: 2px;
+}
+.pR {
+    position: relative;
+}
+.noteFix {
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    bottom: 2%;
+    font-size: 11px;
+    line-height: 16px;
+}
+.itemWrapper {
+    padding: 0;
+}
+.itemWrapper .items {
+    padding: 70px 0;
+    border-bottom: 1px solid #ddd;
+}
+.itemWrapper .items .thumb-image {
+    width: 100%;
+}
+.itemWrapper .items h3 {
+    font-size: 32px;
+    font-weight: 300;
+    text-align: left;
+    margin: 0px 0 30px;
+}
+.itemWrapper .items ul {
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+.itemWrapper .items ul li{
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+    margin: 4px 0;
+    padding: 0;
+}
+.idCard-printer img, .sticker img {
+    width: 80%;
+}
+.itemWrapper .sticker {
+    padding: 70px 0;
+}
+.itemWrapper .sticker h3 {
+    font-size: 28px;
+}
+@media(max-width:768px) {
+    .idCard-printer img, .sticker img {
+        width: 100%;
+    }
+}
